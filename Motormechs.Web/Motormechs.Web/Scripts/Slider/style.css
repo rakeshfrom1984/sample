@@ -1,0 +1,888 @@
+/*---------------------------------
+ *  Default tags
+ *---------------------------------*/
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+    a:hover,
+    .jps a:hover {
+        text-decoration: underline;
+    }
+
+    a:active,
+    .jps a:active {
+        color: orangeRed;
+    }
+
+    a:focus {
+    }
+
+    a:visited {
+    }
+
+
+
+ul {
+    margin: 0 0 10px 0;
+    padding: 0;
+    list-style: disc inside none;
+}
+
+    ul li {
+        margin: 0 0 5px;
+    }
+
+
+.noscript {
+    margin: 10px 0 15px;
+    padding: 10px;
+    color: #fff;
+    background: red;
+}
+
+#page ul {
+    margin: 10px 0 10px 15px;
+}
+
+#page, #content {
+    height: 100%;
+    position: relative;
+}
+
+    #page .jps ul,
+    #page .customtabs ul {
+        margin: 0;
+    }
+
+
+
+
+.jps {
+    display: none;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    width: 100% !important;
+}
+
+    .jps a,
+    .jps a:hover {
+        text-decoration: none;
+        display: block;
+    }
+
+        .jps a:focus {
+            outline: 1px dotted #000; /*optional*/
+        }
+
+    .jps img {
+        border: 0;
+        width: 100%;
+    }
+
+    /*---------------------------------
+ *  Navigation
+ *---------------------------------*/
+    .jps .jps-nav {
+        z-index: 10;
+        position: absolute;
+        text-align: center;
+    }
+
+    /* Nav > Clip */
+    .jps .jps-nav-clip {
+        position: absolute;
+        margin: 0 auto;
+    }
+
+        .jps .jps-nav-clip ul {
+            position: relative;
+            left: 0;
+            top: 570px;
+            z-index: 1000;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+            .jps .jps-nav-clip ul li {
+                float: left;
+            }
+
+                .jps .jps-nav-clip ul li a {
+                    display: block;
+                    overflow: hidden;
+                }
+
+    /*---------------------------------
+ *  Buttons
+ *---------------------------------*/
+    .jps .jps-btn {
+        z-index: 10;
+    }
+
+    /*---------------------------------
+ *  Panels
+ *---------------------------------*/
+    .jps .jps-panel {
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .jps .jps-panel-active {
+        z-index: 5;
+    }
+
+    .jps .jps-panel-old {
+        z-index: 4;
+    }
+
+    /* Panels > Overlay */
+    .jps .jps-panel .jps-panel-textbox {
+        position: absolute;
+        z-index: 1;
+    }
+
+    .jps .jps-panel .jps-panel-text {
+        position: absolute;
+        z-index: 3;
+        top: 0;
+        left: 0;
+    }
+
+    .jps .jps-panel .jps-panel-overlay {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+    }
+
+
+/*---------------------------------
+ *  Loader
+ *---------------------------------*/
+
+
+.contentslider-std {
+}
+
+    .contentslider-std .jps-panels {
+        width: 100%;
+        display: block;
+        height: 100%;
+        background: #000 /*url(ajax-loader.gif) no-repeat center center*/;
+        overflow: hidden;
+    }
+
+
+    /* Panels buttons */
+    .contentslider-std .jps-go-btn {
+        color: #FFFFFF;
+        cursor: pointer;
+        font-size: 50px;
+        font-weight: normal;
+        height: 58px;
+    }
+
+    .contentslider-std .jps-go-btn {
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 58px;
+        line-height: 58px;
+        margin-top: -29px;
+    }
+
+    .contentslider-std .jps-go-prev {
+        left: -58px;
+    }
+
+    .contentslider-std .jps-go-next {
+        right: -58px;
+    }
+
+    .contentslider-std .jps-go-btn a {
+        border-radius: 1px;
+    }
+
+    .contentslider-std .jps-go-prev a {
+        display: block;
+        width: 58px;
+        height: 58px;
+        background: #000 /*url(l-arr.png) no-repeat center center*/;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .contentslider-std .jps-go-prev a {
+        margin: 0 auto 0 auto;
+        font-size: 0;
+        line-height: 0;
+        text-indent: -4000px;
+    }
+
+    .contentslider-std .jps-go-next a {
+        display: block;
+        width: 58px;
+        height: 58px;
+        background: #000 /*url(r-arr.png) no-repeat center center*/;
+    }
+
+    .contentslider-std .jps-go-next a {
+        margin: 0 auto 0 auto;
+        font-size: 0;
+        line-height: 0;
+        text-indent: -4000px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .contentslider-std .jps-go-prev a:hover {
+    }
+
+    .contentslider-std .jps-go-next a:hover {
+    }
+
+    .contentslider-std .jps-go-btn span {
+        display: none;
+    }
+
+
+/* setting the path to the thumb images the name of the thumbnail images have to be like the big slide images followed by "-thumb"*/
+#a-thumb {
+    /*background: url(a-thumb.jpg);*/
+}
+
+#b-thumb {
+    /*background: url(b-thumb.jpg);*/
+}
+
+#c-thumb {
+    /*background: url(c-thumb.jpg);*/
+}
+
+#d-thumb {
+    /*background: url(d-thumb.jpg);*/
+}
+
+#e-thumb {
+    /*background: url(e-thumb.jpg);*/
+}
+
+/* setting the style of thumbnail images frame*/
+.jps-go-next strong {
+    display: block;
+    position: absolute;
+    right: 65px;
+    top: -18px;
+    z-index: 100;
+    border: solid 5px #ffc62b;
+    box-shadow: #333 2px 2px 2px;
+}
+
+.jps-go-next strong, .jps-go-prev strong {
+    width: 145px;
+    height: 85px;
+    border: solid 5px #ffc62b;
+    box-shadow: #333 2px 2px 2px;
+    border-radius: 3px;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    /* IE 5-7 */
+    filter: alpha(opacity=0);
+    /* Netscape */
+    -moz-opacity: 0;
+    /* Safari 1.x */
+    -khtml-opacity: 0;
+    /* Good browsers */
+    opacity: 0;
+}
+
+.jps-go-prev strong {
+    display: block;
+    position: absolute;
+    left: 65px;
+    top: -18px;
+    z-index: 100;
+}
+
+/* styling the description box */
+.description {
+    /*background: url("dot.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    left: 5%;
+    margin: 0 auto;
+    opacity: 0.6;
+    padding: 10px 14px 14px;
+    position: absolute;
+    text-align: left !important;
+    top: 40%;
+    z-index: 100;
+    height: 30px;*/
+    /*background: url("dot.png") repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+    /*opacity: 0.6;*/
+    float: left;
+    margin: 0 auto 0 6%;
+    position: absolute;
+    top: 40%;
+    z-index: 100;
+    padding-left: 13px;
+    height: 59px;
+}
+
+    .description h2 {
+        /*font-size: 29px;*/
+        font-family: Arial, sans-serif;
+        margin: 0;
+        font-weight: 700;
+        opacity: 1;
+        /*letter-spacing: 0.04em;*/
+        font-size: 50px;
+        color: #fff;
+        line-height: 1.3;
+        text-shadow: 3px 3px #333;
+    }
+
+    .description p {
+        margin: 0 0 3px 0;
+        color: #fff;
+        font-size: 14px;
+        line-height: 22px;
+        white-space: normal;
+        font-family: Arial, sans-serif;
+        opacity: 1;
+    }
+
+.marginD {
+    margin-top: 59px;
+}
+/*.description
+{
+
+    background: url("dot.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    margin: 0 auto 0 6%;
+    position: absolute;
+    top: 40%;
+    z-index: 100;
+    padding-left: 13px;
+    height: 59px;
+}
+
+    .description h2 {
+        /*font-size: 29px;* /
+        font-size: 45px;
+        font-family: 'Patua One', sans-serif;
+        margin: 0;
+        font-weight: normal;
+        opacity: 1;
+        letter-spacing: 0.04em;
+        font-size: 45px;
+        color: #fff;
+        line-height: 1.3;
+        text-shadow: 2px 2px #333;
+    }
+
+    .description p {
+        margin: 0 0 3px 0;
+        color: #fff;
+        font-size: 14px;
+        line-height: 22px;
+        white-space: normal;
+        font-family: Arial, sans-serif;
+        opacity: 1;
+    }*/
+
+.description a {
+    color: #ffc600;
+    text-decoration: underline;
+    opacity: 1;
+}
+
+    .description a:hover {
+        text-decoration: none;
+        opacity: 1;
+    }
+
+.description2 {
+    float: right;
+    margin: 0px 5%;
+    position: absolute;
+    right: 0;
+    text-align: center !important;
+    top: 34%;
+    width: 25%;
+    z-index: 100;
+}
+
+    .description2 a {
+        /*background-color: #7fc356;
+        border: 1px solid #3d882f;*/
+        /*background-color: rgba(255, 255, 255, 0.5);
+        border: 2px solid #fff;*/
+        /*background-clip: padding-box;
+        border-radius: 4px;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset, 0 -2px 0 rgba(0, 0, 0, 0.18) inset;
+        color: #fff;
+        font-size: 30px;
+        margin-left: -13px;
+        margin-top: 25px;
+        text-decoration: none;*/
+        background-clip: padding-box;
+        font-size: 25px;
+        margin-top: 25px;
+        font-family: "Oswald",sans-serif;
+    }
+
+        .description2 a:hover {
+            background-color: #59be45;
+            border-color: #3d882f;
+            /*background-color: rgba(255, 255, 255, 0.6);
+            border: 2px solid #fff;*/
+            text-decoration: none;
+        }
+
+.innerFeature {
+    width: 87%;
+}
+
+.jps-panels {
+    list-style-type: none;
+}
+
+    .jps-panels li {
+        padding: 0;
+        width: 100%;
+        margin: 0;
+        float: left;
+        display: none;
+        height: 100%;
+    }
+
+.cbp-fwprev em {
+    display: block;
+    width: 19px;
+    height: 28px;
+    background: url(l-arr.png);
+    margin: 16px auto 0 auto;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -4000px;
+}
+
+.cbp-fwnext em {
+    display: block;
+    width: 18px;
+    height: 27px;
+    background: url(r-arr.png);
+    margin: 16px auto 0 auto;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -4000px;
+}
+
+h2.slider-title {
+    font-size: 35px;
+    line-height: 100px;
+    font-family: 'Patua One', sans-serif;
+    background: #fefefe;
+    color: #333;
+    height: 100px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.jps-panels-wrapper {
+    height: 100%;
+    position: relative;
+}
+
+a.holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    display: block;
+    overflow: visible;
+    cursor: default;
+}
+
+
+.searchButton {
+    margin: 10px 0 !important;
+    width: 49% !important;
+}
+
+/* -------------------------------  Media Query Max Width 1300, Min Width 940 ------------------------------- */
+
+@media only screen and (min-width:940px) and (max-width: 1300px) {
+
+    .description {
+        top: 30%;
+    }
+
+        .description h2 {
+            font-size: 40px;
+            margin: 0;
+        }
+
+        .description p {
+            font-size: 13px;
+            line-height: 15px;
+        }
+
+    .description2 {
+        margin: 0px 5%;
+        top: 24%;
+        width: 25%;
+    }
+
+        .description2 a {
+            font-size: 25px;
+        }
+
+    .innerFeature {
+        width: 87%;
+    }
+
+
+    .contentslider-std .jps-go-prev a {
+        width: 55px;
+    }
+
+    .contentslider-std .jps-go-next a {
+        width: 55px;
+    }
+
+    .contentslider-std .jps-go-btn {
+        width: 55px;
+    }
+
+    .jps-go-next strong, .jps-go-prev strong {
+        width: 125px;
+        height: 73px;
+        border: solid 3px #FFC62B;
+        top: -10px;
+    }
+
+    .jps-go-next strong {
+        right: 61px;
+    }
+
+    .jps-go-prev strong {
+        left: 61px;
+    }
+}
+
+/* -------------------------------  Media Query Max Width 940, Min Width 720 ------------------------------- */
+
+@media only screen and (min-width:720px) and (max-width: 939px) {
+
+    .description {
+        top: 30%;
+    }
+
+        .description h2 {
+            font-size: 30px;
+            margin: 0;
+        }
+
+        .description p {
+            font-size: 13px;
+            line-height: 15px;
+        }
+
+    .description2 {
+        margin: 0 auto 0 7%;
+        top: 24%;
+        width: 33%;
+    }
+
+        .description2 a {
+            font-size: 25px;
+        }
+
+    .innerFeature {
+        width: 87%;
+    }
+
+
+    .contentslider-std .jps-go-prev a {
+        width: 55px;
+    }
+
+    .contentslider-std .jps-go-next a {
+        width: 55px;
+    }
+
+    .contentslider-std .jps-go-btn {
+        width: 55px;
+    }
+
+    .jps-go-next strong, .jps-go-prev strong {
+        width: 125px;
+        height: 73px;
+        border: solid 3px #FFC62B;
+        top: -10px;
+    }
+
+    .jps-go-next strong {
+        right: 61px;
+    }
+
+    .jps-go-prev strong {
+        left: 61px;
+    }
+}
+
+/* -------------------------------  Media Query Max Width 719, Min Width 540  ------------------------------- */
+
+@media only screen and (min-width:540px) and (max-width:719px) {
+
+    .description {
+        top: 20%;
+    }
+
+        .description h2 {
+            font-size: 35px;
+            margin: 0;
+        }
+
+        .description p {
+            font-size: 13px;
+            line-height: 15px;
+        }
+
+    .description2 {
+        top: 60%;
+        width: 100%;
+        margin: 0 auto 0 0;
+        left: 0;
+        right: auto;
+    }
+
+        .description2 a {
+            float: left;
+            font-size: 25px;
+            width: 47%;
+        }
+
+    .innerFeature {
+        margin-left: auto;
+        margin-right: auto;
+        display: table;
+        width: 87%;
+    }
+
+        .innerFeature a:first-child {
+            margin-right: 20px !important;
+        }
+
+        .innerFeature a:not(:first-child) {
+            margin-right: 0 !important;
+        }
+
+    .contentslider-std .jps-go-prev a {
+        width: 35px;
+        height: 35px;
+        background: #000 /*url(../images/l-arr-sm.png) no-repeat 12px center;*/;
+    }
+
+    .contentslider-std .jps-go-next a {
+        width: 35px;
+        height: 35px;
+        background: #000 /*url(../images/r-arr-sm.png) no-repeat 15px center*/;
+    }
+
+    .contentslider-std .jps-go-btn {
+        width: 35px;
+        line-height: 35px;
+        height: 35px;
+    }
+
+    .jps-go-next strong, .jps-go-prev strong {
+        width: 110px;
+        height: 64px;
+        border: solid 3px #FFC62B;
+    }
+
+    .jps-go-next strong {
+        right: 36px;
+    }
+
+    .jps-go-prev strong {
+        left: 36px;
+    }
+}
+
+/* -------------------------------  Media Query Max Width 539 ------------------------------- */
+
+@media only screen and (min-width:430px) and (max-width:539px) {
+    .rslides {
+        overflow: visible !important;
+        display: table !important;
+    }
+
+    .hero-text2 {
+        margin-top: 50px !important;
+    }
+
+    .description {
+        top: 50% !important;
+    }
+
+        .description h2 {
+            font-size: 25px !important;
+        }
+
+    .marginD {
+        margin-top: 35px !important;
+    }
+
+    .description2 {
+        top: 100%;
+        width: 100%;
+        margin: 0 auto 0 0;
+        left: 0;
+        right: auto;
+    }
+
+    .innerFeature {
+        margin-left: auto;
+        margin-right: auto;
+        display: table;
+        width: 87%;
+    }
+
+        .innerFeature a:first-child {
+            margin-right: 20px !important;
+        }
+
+        .innerFeature a:not(:first-child) {
+            margin-right: 0 !important;
+        }
+
+    .description2 a {
+        float: left;
+        font-size: 25px;
+        width: 47%;
+    }
+
+    .contentslider-std .jps-go-prev a {
+        width: 35px;
+        height: 35px;
+        background: #000 /*url(../images/l-arr-sm.png) no-repeat 12px center*/;
+    }
+
+    .contentslider-std .jps-go-next a {
+        width: 35px;
+        height: 35px;
+        background: #000 /*url(../images/r-arr-sm.png) no-repeat 15px center*/;
+    }
+
+    .contentslider-std .jps-go-btn {
+        width: 35px;
+        line-height: 35px;
+        height: 35px;
+    }
+
+    .jps-go-next strong, .jps-go-prev strong {
+        width: 110px;
+        height: 64px;
+        border: solid 3px #FFC62B;
+    }
+
+    .jps-go-next strong {
+        right: 36px;
+    }
+
+    .jps-go-prev strong {
+        left: 36px;
+    }
+}
+
+
+@media only screen and (max-width:430px) {
+    .rslides {
+        overflow: visible !important;
+        display: table !important;
+    }
+
+    .hero-text2 {
+        margin-top: 105px !important;
+    }
+
+    .description {
+        top: 50% !important;
+    }
+
+        .description h2 {
+            font-size: 20px !important;
+        }
+
+    .marginD {
+        margin-top: 35px !important;
+    }
+
+    .description2 {
+        top: 100%;
+        width: 100%;
+        margin: 0 auto 0 0;
+        left: 0;
+        right: auto;
+    }
+
+    .innerFeature {
+        margin-left: auto;
+        margin-right: auto;
+        display: table;
+        width: 87%;
+    }
+
+    .description2 a {
+        float: left;
+        margin-right: 0;
+        width: 100%;
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    .contentslider-std .jps-go-prev a {
+        width: 35px;
+        height: 35px;
+        background: #000 /*url(../images/l-arr-sm.png) no-repeat 12px center*/;
+    }
+
+    .contentslider-std .jps-go-next a {
+        width: 35px;
+        height: 35px;
+        background: #000 /*url(../images/r-arr-sm.png) no-repeat 15px center*/;
+    }
+
+    .contentslider-std .jps-go-btn {
+        width: 35px;
+        line-height: 35px;
+        height: 35px;
+    }
+
+    .jps-go-next strong, .jps-go-prev strong {
+        width: 110px;
+        height: 64px;
+        border: solid 3px #FFC62B;
+    }
+
+    .jps-go-next strong {
+        right: 36px;
+    }
+
+    .jps-go-prev strong {
+        left: 36px;
+    }
+}

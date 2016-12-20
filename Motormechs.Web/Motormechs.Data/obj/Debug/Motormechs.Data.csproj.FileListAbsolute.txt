@@ -1,0 +1,16 @@
+D:\own Project\Motormechs.Web\Motormechs.Data\bin\Debug\Motormechs.Data.dll.config
+D:\own Project\Motormechs.Web\Motormechs.Data\bin\Debug\Motormechs.Data.dll
+D:\own Project\Motormechs.Web\Motormechs.Data\bin\Debug\Motormechs.Data.pdb
+D:\own Project\Motormechs.Web\Motormechs.Data\bin\Debug\EntityFramework.dll
+D:\own Project\Motormechs.Web\Motormechs.Data\bin\Debug\EntityFramework.xml
+D:\own Project\Motormechs.Web\Motormechs.Data\obj\Debug\Motormechs.Data.dll
+D:\own Project\Motormechs.Web\Motormechs.Data\obj\Debug\Motormechs.Data.pdb
+D:\own Project\Motormechs.Web\Motormechs.Data\obj\Debug\Motormechs.Data.csprojResolveAssemblyReference.cache
+C:\Users\rakfali\Desktop\own Project\Motormechs.Web\Motormechs.Data\bin\Debug\Motormechs.Data.dll.config
+C:\Users\rakfali\Desktop\own Project\Motormechs.Web\Motormechs.Data\bin\Debug\Motormechs.Data.dll
+C:\Users\rakfali\Desktop\own Project\Motormechs.Web\Motormechs.Data\bin\Debug\Motormechs.Data.pdb
+C:\Users\rakfali\Desktop\own Project\Motormechs.Web\Motormechs.Data\bin\Debug\EntityFramework.dll
+C:\Users\rakfali\Desktop\own Project\Motormechs.Web\Motormechs.Data\bin\Debug\EntityFramework.xml
+C:\Users\rakfali\Desktop\own Project\Motormechs.Web\Motormechs.Data\obj\Debug\Motormechs.Data.csprojResolveAssemblyReference.cache
+C:\Users\rakfali\Desktop\own Project\Motormechs.Web\Motormechs.Data\obj\Debug\Motormechs.Data.dll
+C:\Users\rakfali\Desktop\own Project\Motormechs.Web\Motormechs.Data\obj\Debug\Motormechs.Data.pdb

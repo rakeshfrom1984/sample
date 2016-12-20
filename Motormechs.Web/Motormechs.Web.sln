@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Motormechs.Web", "Motormechs.Web\Motormechs.Web.csproj", "{68531109-BC9D-4BB7-8BAF-F3834448BBD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Motormechs.Web.Tests", "Motormechs.Web.Tests\Motormechs.Web.Tests.csproj", "{328C58CD-327C-45B3-8BB0-723472E44BE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Motormechs.Data", "Motormechs.Data\Motormechs.Data.csproj", "{12CD9C56-A9CD-48BD-AAFD-12BECE5EAF8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Motormechs.API", "Motormechs.API\Motormechs.API.csproj", "{0120DC18-8E2E-44F5-B52E-34A30AF54B0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Motormechs.API.Tests", "Motormechs.API.Tests\Motormechs.API.Tests.csproj", "{3BB19F43-735D-40C8-8251-E1BC1A749FD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Motormechs.Business", "Motormechs.Business\Motormechs.Business.csproj", "{86CE4712-4F07-4AC4-A1EA-E8137E98A08D}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://yorkwebsolution.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Motormechs.API.Tests\\Motormechs.API.Tests.csproj
+		SccProjectName1 = Motormechs.API.Tests
+		SccLocalPath1 = Motormechs.API.Tests
+		SccProjectUniqueName2 = Motormechs.API\\Motormechs.API.csproj
+		SccProjectName2 = Motormechs.API
+		SccLocalPath2 = Motormechs.API
+		SccProjectUniqueName3 = Motormechs.Business\\Motormechs.Business.csproj
+		SccProjectName3 = Motormechs.Business
+		SccLocalPath3 = Motormechs.Business
+		SccProjectUniqueName4 = Motormechs.Data\\Motormechs.Data.csproj
+		SccProjectName4 = Motormechs.Data
+		SccLocalPath4 = Motormechs.Data
+		SccProjectUniqueName5 = Motormechs.Web.Tests\\Motormechs.Web.Tests.csproj
+		SccProjectName5 = Motormechs.Web.Tests
+		SccLocalPath5 = Motormechs.Web.Tests
+		SccProjectUniqueName6 = Motormechs.Web\\Motormechs.Web.csproj
+		SccProjectName6 = Motormechs.Web
+		SccLocalPath6 = Motormechs.Web
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68531109-BC9D-4BB7-8BAF-F3834448BBD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68531109-BC9D-4BB7-8BAF-F3834448BBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68531109-BC9D-4BB7-8BAF-F3834448BBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68531109-BC9D-4BB7-8BAF-F3834448BBD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{328C58CD-327C-45B3-8BB0-723472E44BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{328C58CD-327C-45B3-8BB0-723472E44BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{328C58CD-327C-45B3-8BB0-723472E44BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{328C58CD-327C-45B3-8BB0-723472E44BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12CD9C56-A9CD-48BD-AAFD-12BECE5EAF8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12CD9C56-A9CD-48BD-AAFD-12BECE5EAF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12CD9C56-A9CD-48BD-AAFD-12BECE5EAF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12CD9C56-A9CD-48BD-AAFD-12BECE5EAF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0120DC18-8E2E-44F5-B52E-34A30AF54B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0120DC18-8E2E-44F5-B52E-34A30AF54B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0120DC18-8E2E-44F5-B52E-34A30AF54B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0120DC18-8E2E-44F5-B52E-34A30AF54B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB19F43-735D-40C8-8251-E1BC1A749FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB19F43-735D-40C8-8251-E1BC1A749FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB19F43-735D-40C8-8251-E1BC1A749FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB19F43-735D-40C8-8251-E1BC1A749FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86CE4712-4F07-4AC4-A1EA-E8137E98A08D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CE4712-4F07-4AC4-A1EA-E8137E98A08D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86CE4712-4F07-4AC4-A1EA-E8137E98A08D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86CE4712-4F07-4AC4-A1EA-E8137E98A08D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

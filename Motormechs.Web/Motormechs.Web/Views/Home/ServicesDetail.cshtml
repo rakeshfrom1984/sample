@@ -1,0 +1,109 @@
+﻿@model IEnumerable<Motormechs.Business.Model.UserServiceList>
+@{
+    ViewBag.Title = "Service Detail";
+}
+
+
+
+<section class="col-md-7 form-Section">
+    <div class="row" style="margin-left: -20px;margin-right: -20px">
+        <div class="row" style="margin-left: 0; margin-right: 0">
+            <h2 style="float: left;">@ViewBag.Title</h2>
+            @*<a class="btn" style="float: right; margin-bottom: 10px; margin-top: 20px;" href="/home/add-vehicle">Add Vehicle</a>
+            @Html.Hidden("ApiURL", System.Configuration.ConfigurationManager.AppSettings["ApiURL"].ToString())*@
+        </div>
+        <div class="col-md-12" style="padding:0">
+            <section id="ServiceForm">
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="model">Vehicle Name</td>
+                            <td>Vehicle Number</td>
+                            <td >Service Date</td>
+                            <td class="model">PickUp</td>
+                            <td style="text-align:center">Show Detail</td>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.Count() > 0)
+                        {
+                            foreach (var item in Model)
+                            {
+                                <tr id="Record-@item.OrderId">
+                                    <td class="model">@item.VehicleName</td>
+                                    <td>@item.VehicleNumber</td>
+                                    <td >@item.CreatedDate.ToShortDateString()</td>
+                                    <td class="model">@(item.PickNDrop == true ? "Yes" : "No")</td>
+                                    <td style="text-align:center">
+                                        <a href="javascript:void(0)" rel="@item.OrderId" title="detail" class="showDetail" >
+                                            <img src="~/Content/images/detail.png" />
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td align="center" colspan="6">
+                                    No Vehicle Found
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </section>
+        </div>
+        
+    </div>
+    <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="label">Your Services for vehicle </h4>
+                </div>
+                <div class="modal-body">
+                    Body
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-default" data-dismiss="modal">Close</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script type="text/javascript">
+    $('.showDetail').click(function () {
+        var values = $(this).parent().parent().children('td').map(function (index, val) {
+            return $(this).text().trim();
+        }).toArray();
+        var orderid = $(this).attr('rel');
+        $.ajax({
+            contentType: 'application/json; charset=utf-8',
+            dataType: 'json',
+            type: 'GET',
+            url: 'http://localhost:5014/api/ServiceDetailList/Get?OrderServiceId=' + orderid,
+            // data: serviceList,
+            success: function (response) {
+                $('#label').html(values[0] + '/' + values[1] );
+                var Html = "<ul>";
+                jQuery.each(response.ResponseData, function () {
+                    Html += "<li>" + this.UserSeviceName + "</li>";
+                });
+                Html += "</ul>";
+                $('.modal-body').html(Html);
+                $('#myModal').modal('show');
+            },
+            failure: function (error) {
+                alert(error);
+            }
+        })
+        
+       
+    });
+</script>
+
+

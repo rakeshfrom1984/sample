@@ -1,0 +1,50 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <ul class="nav navbar-nav navbar-right" id="mainNav">
+            <li @*class="active"*@ id="HomeLink"><a href="/home/index" class="scroll-link">Home</a></li>
+            <li id="servicesLink" class="has-sub">
+                <a href="javascript:void(0);" class="scroll-link dropdown-toggle" data-toggle="dropdown">Services</a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                    <li id="ServicesDetail"><a href="/home/services" class="scroll-link">Our Services</a></li>
+                    <li id="AddService"><a href="/home/new/service" class="scroll-link">Add Service</a></li>
+                    <li id="AddService"><a href="/home/my-service" class="scroll-link">My Service</a></li>
+                </ul>
+            </li>
+            <li id="aboutUsLink"><a href="#" class="scroll-link">About Us</a></li>
+            <li id="contactUsLink"><a href="/home/contactUs" class="scroll-link">Contact Us</a></li>
+            <li id="AccountLink" class="has-sub">
+                <a href="javascript:void(0);" class="scroll-link dropdown-toggle" data-toggle="dropdown">@User.Identity.Name.Split('|')[1]</a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                    <li id="Account"><a href="/home/account" class="scroll-link">Manage Account</a></li>
+                    <li id="Account"><a href="/home/vehicle" class="scroll-link">Manage Vehicle</a></li>
+                    <li id="ChangePassword"><a href="/home/change-password" class="scroll-link">Change Password</a></li>
+                </ul>
+                <input type="hidden" id="UserID" value="@User.Identity.GetUserName().Split('|')[0]" />
+                <input type="hidden" id="UserName" value="@User.Identity.GetUserName().Split('|')[1]" />
+                @Html.Hidden("UserType", (((System.Web.Security.FormsIdentity)(User.Identity))).Ticket.UserData)
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+        </ul>
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right" id="mainNav">
+        <li @*class="active"*@ id="HomeLink"><a href="/home/index" class="scroll-link">Home</a></li>
+        <li id="servicesLink" class="has-sub">
+            <a href="javascript:void(0);" class="scroll-link dropdown-toggle" data-toggle="dropdown">Services</a>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                <li id="ServicesDetail"><a href="/home/services" class="scroll-link">Services Detail</a></li>
+                <li id="AddService"><a href="/home/new/service" class="scroll-link">Add Service</a></li>
+            </ul>
+        </li>
+        <li id="aboutUsLink"><a href="#" class="scroll-link">About Us</a></li>
+        <li id="contactUsLink"><a href="/home/contactUs" class="scroll-link">Contact Us</a></li>
+        <li id="RegisterLink"><a id="registerLink" href="/home/register">Register</a></li>
+        <li id="LoginLink"><a id="loginLink" href="/home/login">Log in</a></li>
+    </ul>
+}

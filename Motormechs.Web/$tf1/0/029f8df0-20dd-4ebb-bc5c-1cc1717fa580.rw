@@ -1,0 +1,7 @@
+﻿
+@{
+    ViewBag.Title = "BuyService";
+}
+
+<h2>BuyService</h2>
+

@@ -1,0 +1,229 @@
+﻿@model IEnumerable<Motormechs.Business.Model.Services>
+@{
+    ViewBag.Title = "Services";
+}
+<script src="~/Content/js/jquery-ui.js"></script>
+<link href="~/Content/jquery-ui.css" rel="stylesheet" />
+<section id="login" class="col-md-7 form-Section">
+
+    <div class="row" style="margin-left: -20px;margin-right: -20px">
+        @Html.Hidden("ApiURL", System.Configuration.ConfigurationManager.AppSettings["ApiURL"].ToString())
+        <h2>@ViewBag.Title</h2>
+        <div class="col-md-12" style="padding:0">
+            <section id="ServiceForm">
+                @using (Html.BeginForm("Services", "Home", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form", id = "ServiceForm1" }))
+                {
+                    @Html.AntiForgeryToken()
+                    @*<h4>Use a local account to log in.</h4>*@
+                    <hr />
+                    @Html.ValidationSummary(true)
+                    <div class="form-group" id="IdServices">
+                        @*@Html.LabelFor(m => m.UserName, new { @class = "col-md-4 control-label", @style = " text-align: left;" })*@
+                        @foreach (Motormechs.Business.Model.Services s in Model.Where(e => e.Parent == 0))
+                        {
+                            int countCc = Model.Where(e1 => e1.Parent == s.OrderBy).ToList().Count;
+                            int counterCc = 1;
+                            decimal countcc1 = Convert.ToDecimal(countCc) / Convert.ToDecimal(2);
+                            countCc = Convert.ToInt32(Math.Round(countcc1, MidpointRounding.AwayFromZero));
+
+                            <div class="col-xs-12 border-service" style="padding:0">
+                                @*@Html.Label(s.Name, new { id = s.Id, @class = "css-label-header logo" + s.Id })*@
+                                <div class="checkbox css-label-header logo">
+                                    @*@Html.CheckBox(m.Name, new { id = m.Id, parent = m.Parent, @class = "css-checkbox" })*@
+                                    <input type="checkbox" class="css-checkbox chkMain" name="@s.Name" id="@s.Id" parent="@s.Parent" />
+                                    <label class="css-label cb0" style="color:#fff" for="@s.Id">@s.Name</label>
+                                </div>
+                                <div class="innerBox">
+                                    <div class="col-md-6" style="padding:0">
+                                        @foreach (Motormechs.Business.Model.Services m in Model.Where(e1 => e1.Parent == s.OrderBy))
+                                        {
+                                            if (counterCc == countCc)
+                                            {
+                                                <div class="checkbox">
+                                                    @*@Html.CheckBox(m.Name, new { id = m.Id, parent = m.Parent, @class = "css-checkbox" })*@
+                                                    <input type="checkbox" class="css-checkbox" name="@m.Name" id="@m.Id" parent="@m.Parent" />
+                                                    <label class="css-label cb0" for="@m.Id">@m.Name</label>
+                                                </div>
+                                                @Html.Raw("</div><div class='col-md-6' style='padding:0'>")
+                                            }
+                                            else
+                                            {
+                                                <div class="checkbox">
+                                                    @*@Html.CheckBox(m.Name, new { id = m.Id, parent = m.Parent, @class = "css-checkbox" })*@
+                                                    <input type="checkbox" class="css-checkbox" name="@m.Name" id="@m.Id" parent="@m.Parent" />
+                                                    <label class="css-label cb0" for="@m.Id">@m.Name</label>
+                                                </div>
+                                            }
+                                            counterCc++;
+                                        }
+
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <div class="form-group">
+                        <div class="col-xs-12 border-service" style="padding:0">
+                            @Html.Label("Vehicle", new { @class = "css-label-header" })
+                            <div class="innerBox">
+                                <div class="col-md-6" style="padding:0">
+                                    <div class="form-group">
+                                        @Html.Label("Number", "Vehicle Number", new { @class = "col-md-6 control-label", @style = " text-align: left;" })
+                                        <div class="col-xs-12" style="float:left">
+                                            @Html.TextBox("Number", "", new { @class = "form-control" })
+
+                                            @Html.Hidden("VehicleID")
+                                            @*@Html.ValidationMessageFor(m => m.Number)*@
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        @Html.Label("Name", new { @class = "col-md-6 control-label", @style = " text-align: left;" })
+                                        <div class="col-xs-12" style="float:left">
+                                            @Html.TextBox("Name", "", new { @class = "form-control" })
+                                            @*@Html.ValidationMessageFor("Name")*@
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6" style="padding:0">
+                                    <div class="form-group">
+                                        @Html.Label("Model", new { @class = "col-md-6 control-label", @style = " text-align: left;" })
+                                        <div class="col-xs-12" style="float:left">
+                                            @Html.TextBox("Model", "", new { @class = "form-control" })
+                                            @*@Html.ValidationMessageFor(m => m.Model)*@
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        @Html.Label("ManufacturedBy", new { @class = "col-md-6 control-label", @style = " text-align: left;" })
+                                        <div class="col-xs-12" style="float:left">
+                                            @Html.TextBox("ManufacturedBy", "", new { @class = "form-control" })
+                                            @*@Html.ValidationMessageFor(m => m.ManufacturedBy)*@
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="checkbox" id="PickDrop">
+                        <input type="checkbox" class="css-checkbox" name="Pick" id="Pick" />
+                        <label class="css-label cb0" for="Pick">Free Pick & Drop Service</label>
+                    </div>
+                    <div class="form-group" style="margin-top:15px">
+                        <input type="button" value="Add Services" class="btn btn100 btn-default" id="saveServices" />
+                    </div>
+                }
+            </section>
+        </div>
+    </div>
+</section>
+
+@Scripts.Render("~/bundles/jqueryval")
+
+<script type="text/javascript">
+    var jsonList = [];
+    var jsonList;
+    var PickSelection = false;
+    $(document).ready(function () {
+        getVehicles();
+        // Click Button Starts
+        $('#saveServices').click(function () {
+            var selectedKeys = [];
+            $('#IdServices input[type="checkbox"]:checked').each(function (i, el) {
+                selectedKeys.push({ "id": parseInt(el.id, 10), "parent": parseInt($(el).attr('parent'), 10) });
+            });
+
+            $('#PickDrop input[type="checkbox"]:checked').each(function (i, el) {
+                PickSelection = true;
+            });
+
+            var Name = $('#Name').val();
+            var Model = $('#Model').val();
+            var ManufacturedBy = $('#ManufacturedBy').val();
+            var Number = $('#Number').val();
+            var UserId = $('#UserID').val();
+            var VehicleId = $('#VehicleID').val();
+            var vehicleModel = { "Name": Name, "Model": Model, "ManufacturedBy": ManufacturedBy, "Number": Number, "id": parseInt(VehicleId) }
+            var serviceList = things = JSON.stringify({ "Services": selectedKeys, "VehicleViewModel": vehicleModel, "PickNDrop": PickSelection });
+            // Ajax call starts
+            $.ajax({
+                contentType: 'application/json; charset=utf-8',
+                dataType: 'json',
+                type: 'POST',
+                //url: 'http://test.foofiles.com/home/buyservices',
+                url: 'http://localhost:21914//home/buyservices',
+                data: serviceList,
+                success: function (response) {
+                    if (response = "True") {
+                        //alert("Record Saved :)");
+                        //$('#ServiceForm1')[0].reset();
+                        window.location = "/home/my-service";
+                    }
+                    else
+                        alert("Some Error Occured :(");
+
+                },
+                failure: function (error) {
+                    alert("Some Error Occured :(");
+                }
+            });
+        });
+
+
+        function getVehicles() {
+
+            var UserId = $('#UserID').val();
+            // Ajax call starts
+            $.ajax({
+                contentType: 'application/json; charset=utf-8',
+                dataType: 'json',
+                type: 'GET',
+                url: 'http://localhost:5014/api/Vehicle/get?userId=' + UserId,
+                // data: serviceList,
+                success: function (response) {
+                    jQuery.each(response.ResponseData.List, function () {
+                        jsonList.push({
+                            value: this.Number,
+                            Id: this.id,
+                            Name: this.Name,
+                            Model: this.Model,
+                            ManufacturedBy: this.ManufacturedBy
+                        })
+                    });
+                    jQuery("#Number").autocomplete({
+                        minLength: 0,
+                        source: jsonList,
+                        focus: function (event, ui) {
+                            jQuery("#Number").val(ui.item.value);
+                            return false;
+                        },
+                        select: function (event, ui) {
+                            jQuery("#Number").val(ui.item.value);
+                            jQuery("#VehicleID").val(ui.item.Id);
+                            jQuery("#Name").val(ui.item.Name);
+                            jQuery("#Model").val(ui.item.Model);
+                            jQuery("#ManufacturedBy").val(ui.item.ManufacturedBy);
+                            return false;
+                        }
+                    });
+                },
+                failure: function (error) {
+                    alert(error);
+                }
+            });
+        }
+
+    });
+
+
+    $(document).ready(function () {
+        $('.chkMain').click(function (event) {  //on click
+
+            if (this.checked) { // check select status
+                $(this).parent().parent().find('.innerBox .css-checkbox').each(function () { this.checked = true; })
+            } else {
+                $(this).parent().parent().find('.innerBox .css-checkbox').each(function () { this.checked = false; })
+            }
+        });
+
+    });
+</script>

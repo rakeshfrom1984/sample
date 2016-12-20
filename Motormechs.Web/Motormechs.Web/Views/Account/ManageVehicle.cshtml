@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Motormechs.Business.Model.Vehicles>
+@{
+    ViewBag.Title = "Manage Vehicle";
+}
+
+
+<script src="~/Scripts/ManageVehicle.js"></script>
+<section class="col-md-7 form-Section">
+    <div class="row" style="margin-left: -20px;margin-right: -20px">
+        <div class="row" style="margin-left: 0; margin-right: 0">
+            <h2 style="float: left;">@ViewBag.Title</h2><a class="btn" style="float: right; margin-bottom: 10px; margin-top: 20px;" href="/home/add-vehicle">Add Vehicle</a>
+            @Html.Hidden("ApiURL", System.Configuration.ConfigurationManager.AppSettings["ApiURL"].ToString())
+        </div>
+        <div class="col-md-12" style="padding:0">
+            <section id="ServiceForm">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Name</td>
+                            <td>Number</td>
+                            <td class="model">Model</td>
+                            <td class="model">Manufacturer</td>
+                            <td style="text-align:center">Edit</td>
+                            <td style="text-align:center">Delete</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.Count() > 0)
+                        {
+                            foreach (var item in Model)
+                            {
+                                <tr id="Record-@item.Id">
+                                    <td>@item.Name</td>
+                                    <td>@item.Number</td>
+                                    <td class="model">@item.Model</td>
+                                    <td class="model">@item.ManufacturedBy</td>
+                                    <td style="text-align:center">
+                                        <a href="/home/edit-vehicle/@item.Id" title="Edit">
+                                            <img src="/Content/images/Edit.png" />
+                                        </a>
+                                    </td>
+                                    <td style="text-align:center">
+                                        <a href="javascript:void(0);" title="Delete" id="delete-@item.Id" value="@item.Id" class="DeleteVehicle">
+                                            <img src="/Content/images/Delete.png" />
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td align="center" colspan="6">
+                                    No Vehicle Found
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+</section>
