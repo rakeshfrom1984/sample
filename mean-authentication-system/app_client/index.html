@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="meanApp">
+<head>
+    <title>Demo</title>
+    <base href="/">
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap-theme.min.css">
+</head>
+<body ng-view>
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular/angular-route.min.js"></script>
+    <script src="main.js"></script>
+    <script src="view/home/home.controller.js"></script>
+    <script src="view/profile/profile.controller.js"></script>
+    <script src="view/login/login.controller.js"></script>
+    <script src="view/register/register.controller.js"></script>
+    <script src="view/task/task.controller.js"></script>
+
+    <script src="js/services/auth/authentication.service.js"></script>
+    <script src="js/services/profile/profile.service.js"></script>
+    <script src="js/services/task/task.service.js"></script>
+
+    <script src="js/directives/navigation/navigation.directive.js"></script>
+    <script src="js/directives/navigation/navigation.controller.js"></script>
+</body>
+</html>
