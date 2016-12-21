@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="cargoModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="cargoModelStoreContainer">
+    <EntitySet Name="SlotBookings" EntityType="cargoModel.Store.SlotBookings" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Status" EntityType="cargoModel.Store.Status" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Users" EntityType="cargoModel.Store.Users" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="StatusDetails" EntityType="cargoModel.Store.StatusDetails" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="SlotBookings">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="true" />
+    <Property Name="BookerName" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="ReachTime" Type="datetime" Nullable="true" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="true" />
+    <Property Name="IsActive" Type="bit" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="StatusId" />
+    </Key>
+    <Property Name="StatusId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" Nullable="true" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Phone" Type="varchar" Nullable="true" MaxLength="16" />
+    <Property Name="Password" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="Token" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="true" />
+    <Property Name="IsActive" Type="bit" Nullable="true" />
+  </EntityType>
+  <EntityType Name="StatusDetails">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="true" />
+    <Property Name="SlotId" Type="uniqueidentifier" Nullable="true" />
+    <Property Name="StatusId" Type="uniqueidentifier" Nullable="true" />
+    <Property Name="Message" Type="nvarchar" Nullable="true" MaxLength="200" />
+    <Property Name="DelayTimeETA" Type="time" Nullable="true" Precision="7" />
+    <Property Name="ReasonForDelay" Type="nvarchar" Nullable="true" MaxLength="200" />
+    <Property Name="OnTheWay" Type="bit" Nullable="true" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="true" />
+    <Property Name="Status" Type="int" Nullable="true" />
+  </EntityType>
+</Schema>

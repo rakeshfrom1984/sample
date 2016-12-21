@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "SlotDetailMessage";
+}
+
+<div class="row">
+    <p>Logged in with {{method}} ()your {{method}} is {{phone}})</p>
+    <hr /><hr />
+</div>
+<h4>ENTER A MESSAGE</h4>
+<div class="row" ng-repeat="obj in List">
+    <hr />
+    <div style="padding:0 10px;">
+        <a>
+            <div class="pull-left"><span ng-click="ShowDetail(obj)"><span>{{obj.MessageTime}}&nbsp;{{obj.BookerName}}</span></span><br /><span>{{obj.Message}}</span></div>
+            <div class="pull-right"></div>
+            <div class="clearfix"></div>
+        </a>
+    </div>
+</div>
+<div>
+    <br />
+    <p><textarea ng-model="message" cols="20" rows="5"></textarea></p>
+    <br />
+    <input type="button" ng-click="SaveMessage()" value="Enter" />
+</div>
+

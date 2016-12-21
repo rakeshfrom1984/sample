@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "ReportDelay";
+}
+
+<div class="row">
+    <p>Logged in with {{method}} (your {{method}} is {{phone}})</p>
+    <hr /><hr />
+</div>
+<h4>REPORT A DELAY</h4>
+
+<h4><span>{{data.ReachTime}}&nbsp;{{data.SlotBookerName}}</span></h4>
+<span>Please enter the new ETA</span>
+<timepicker ng-model="mytime" ng-change="changed()" hour-step="hstep" minute-step="mstep" show-meridian="ismeridian"></timepicker>
+<span>Reason for delay:</span>
+<ul>
+    <li><label><input type="radio" ng-model="reason" name="reason" /><span>Traffic jam</span></label></li>
+    <li><label><input type="radio" ng-model="reason" name="reason" /><span>Break down</span></label></li>
+    <li><label><input type="radio" ng-model="reason" name="reason" /><span>Accident</span></label></li>
+    <li><label><input type="radio" ng-model="reason" name="reason" /><span>Traffic jam</span></label></li>
+    <li><label><input type="radio" ng-model="reason" name="reason" /><span>Free text</span></label></li>
+</ul>
+<div>
+    <textarea cols="20" rows="5" ng-model="message"></textarea>
+    <input type="button" ng-click="SaveMessage()" value="Enter" />
+</div>
+

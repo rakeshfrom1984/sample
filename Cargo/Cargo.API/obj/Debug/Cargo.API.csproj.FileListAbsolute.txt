@@ -1,0 +1,148 @@
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\Cargo.API.dll.config
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\Cargo.API.dll
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\Cargo.API.pdb
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\Antlr3.Runtime.dll
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\EntityFramework.dll
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\Newtonsoft.Json.dll
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Net.Http.Formatting.dll
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Cors.dll
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Helpers.dll
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Http.Cors.dll
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Http.dll
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Http.WebHost.dll
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Mvc.dll
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Optimization.dll
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Razor.dll
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.WebPages.dll
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.WebPages.Razor.dll
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\WebGrease.dll
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\EntityFramework.xml
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\Newtonsoft.Json.xml
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Net.Http.Formatting.xml
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Http.xml
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Http.Cors.xml
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Helpers.xml
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Http.WebHost.xml
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Mvc.xml
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Optimization.xml
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Razor.xml
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.WebPages.xml
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.WebPages.Razor.xml
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\bin\Antlr3.Runtime.pdb
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\obj\Debug\Cargo.API.csprojResolveAssemblyReference.cache
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\obj\Debug\Cargo.API.dll
+C:\Users\RAKFALI\Desktop\CargoClix\Cargo\Cargo.API\obj\Debug\Cargo.API.pdb
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\Cargo.API.dll.config
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\Cargo.API.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\Cargo.API.pdb
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\Antlr3.Runtime.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\EntityFramework.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\Newtonsoft.Json.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Net.Http.Formatting.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Cors.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Helpers.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Http.Cors.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Http.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Http.WebHost.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Mvc.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Optimization.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Razor.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.WebPages.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.WebPages.Razor.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\WebGrease.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\EntityFramework.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\Newtonsoft.Json.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Net.Http.Formatting.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Http.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Http.Cors.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Helpers.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Http.WebHost.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Mvc.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Optimization.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.Razor.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.WebPages.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\System.Web.WebPages.Razor.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\bin\Antlr3.Runtime.pdb
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\obj\Debug\Cargo.API.csprojResolveAssemblyReference.cache
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\obj\Debug\Cargo.API.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.API\obj\Debug\Cargo.API.pdb
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\Cargo.API.dll.config
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\Cargo.API.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\Cargo.API.pdb
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\Antlr3.Runtime.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\EntityFramework.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\Newtonsoft.Json.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Net.Http.Formatting.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.Cors.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.Helpers.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.Http.Cors.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.Http.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.Http.WebHost.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.Mvc.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.Optimization.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.Razor.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.WebPages.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.WebPages.Razor.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\WebGrease.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\EntityFramework.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\Newtonsoft.Json.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Net.Http.Formatting.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.Http.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.Http.Cors.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.Helpers.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.Http.WebHost.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.Mvc.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.Optimization.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.Razor.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.WebPages.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\System.Web.WebPages.Razor.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\bin\Antlr3.Runtime.pdb
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\obj\Debug\Cargo.API.csprojResolveAssemblyReference.cache
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\obj\Debug\Cargo.API.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.API\obj\Debug\Cargo.API.pdb
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\Cargo.API.dll.config
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\Cargo.API.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\Cargo.API.pdb
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\Antlr3.Runtime.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\EntityFramework.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\Microsoft.Web.Infrastructure.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\Newtonsoft.Json.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Net.Http.Formatting.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.Cors.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.Helpers.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.Http.Cors.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.Http.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.Http.WebHost.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.Mvc.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.Optimization.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.Razor.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.WebPages.Deployment.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.WebPages.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.WebPages.Razor.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\WebGrease.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\EntityFramework.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\Newtonsoft.Json.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Net.Http.Formatting.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.Http.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.Http.Cors.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.Helpers.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.Http.WebHost.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.Mvc.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.Optimization.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.Razor.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.WebPages.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.WebPages.Deployment.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\System.Web.WebPages.Razor.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\bin\Antlr3.Runtime.pdb
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\obj\Debug\Cargo.API.csprojResolveAssemblyReference.cache
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\obj\Debug\Cargo.API.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.API\obj\Debug\Cargo.API.pdb

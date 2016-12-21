@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="cargoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="SlotBooking">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="UserId" Type="Guid" />
+    <Property Name="BookerName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ReachTime" Type="DateTime" Precision="3" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="StatusId" />
+    </Key>
+    <Property Name="StatusId" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Token" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="cargoEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="SlotBookings" EntityType="Self.SlotBooking" />
+    <EntitySet Name="Status" EntityType="Self.Status" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <EntitySet Name="StatusDetails" EntityType="cargoModel.StatusDetail" />
+  </EntityContainer>
+  <EntityType Name="StatusDetail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="UserId" Type="Guid" />
+    <Property Name="SlotId" Type="Guid" />
+    <Property Name="StatusId" Type="Guid" />
+    <Property Name="Message" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="DelayTimeETA" Type="Time" Precision="7" />
+    <Property Name="ReasonForDelay" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="OnTheWay" Type="Boolean" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="Status" Type="Int32" />
+  </EntityType>
+</Schema>

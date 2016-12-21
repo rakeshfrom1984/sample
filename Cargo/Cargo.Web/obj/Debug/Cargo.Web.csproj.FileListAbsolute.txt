@@ -1,0 +1,165 @@
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Cargo.Web.dll.config
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Cargo.Web.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Cargo.Web.pdb
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Antlr3.Runtime.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\EntityFramework.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.Owin.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Newtonsoft.Json.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Owin.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\System.Web.Helpers.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\System.Web.Mvc.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\System.Web.Optimization.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\System.Web.Razor.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\System.Web.WebPages.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\WebGrease.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\System.Web.Helpers.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\System.Web.Mvc.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\System.Web.Optimization.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\System.Web.Razor.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\System.Web.WebPages.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Newtonsoft.Json.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Antlr3.Runtime.pdb
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\EntityFramework.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.Owin.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\obj\Debug\Cargo.Web.csprojResolveAssemblyReference.cache
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\obj\Debug\Cargo.Web.dll
+C:\Users\rakesh\Desktop\CargoClix\Cargo\Cargo.Web\obj\Debug\Cargo.Web.pdb
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Cargo.Web.dll.config
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Cargo.Web.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Cargo.Web.pdb
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Antlr3.Runtime.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\EntityFramework.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.Owin.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Newtonsoft.Json.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Owin.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\System.Web.Helpers.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\System.Web.Mvc.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\System.Web.Optimization.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\System.Web.Razor.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\System.Web.WebPages.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\WebGrease.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\System.Web.Helpers.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\System.Web.Mvc.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\System.Web.Optimization.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\System.Web.Razor.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\System.Web.WebPages.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Newtonsoft.Json.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Antlr3.Runtime.pdb
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\EntityFramework.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.Owin.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\obj\Debug\Cargo.Web.csprojResolveAssemblyReference.cache
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\obj\Debug\Cargo.Web.dll
+C:\Users\rakfali\Desktop\Cargo\Cargo.Web\obj\Debug\Cargo.Web.pdb
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Cargo.Web.dll.config
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Cargo.Web.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Cargo.Web.pdb
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Antlr3.Runtime.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\EntityFramework.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\EntityFramework.SqlServer.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.Owin.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Facebook.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Google.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Twitter.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Newtonsoft.Json.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Owin.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\System.Web.Helpers.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\System.Web.Mvc.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\System.Web.Optimization.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\System.Web.Razor.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\System.Web.WebPages.Deployment.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\System.Web.WebPages.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\System.Web.WebPages.Razor.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\WebGrease.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\System.Web.Helpers.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\System.Web.Mvc.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\System.Web.Optimization.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\System.Web.Razor.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\System.Web.WebPages.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\System.Web.WebPages.Deployment.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\System.Web.WebPages.Razor.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Newtonsoft.Json.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Antlr3.Runtime.pdb
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\EntityFramework.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\EntityFramework.SqlServer.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.Owin.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Facebook.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Google.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.Twitter.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\obj\Debug\Cargo.Web.csprojResolveAssemblyReference.cache
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\obj\Debug\Cargo.Web.dll
+D:\git repo uploaded\sample\sample\Cargo\Cargo.Web\obj\Debug\Cargo.Web.pdb

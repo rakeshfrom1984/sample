@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Slots";
+}
+
+<div>
+    <div class="row">
+        <p>Logged in with {{method}}(your {{method}} is {{phone}})</p>
+        <hr /><hr />
+    </div>
+  
+    <h4>SLOT BOOKING</h4>
+    <div>Please select</div>
+    
+    <div class="row" ng-repeat="obj in List">
+        <hr />
+        <div style="padding:0 10px;">
+
+            <a >
+                <div class="pull-left"><span ng-click="ShowDetail(obj)">{{obj.ReachTime}}&nbsp;{{obj.BookerName}}</span></div>
+                <div class="pull-right"><span class="glyphicon glyphicon-circle-arrow-right"></span></div>
+                <div class="clearfix"></div>
+            </a>
+        </div>
+
+    </div>
+</div>
